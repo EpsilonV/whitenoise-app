@@ -1,0 +1,122 @@
+[
+  {
+    "source": "file",
+    "name": "Jungle",
+    "file": "amazon_jungle.mp3",
+    "tags": "animals, forest, outdoors, happy",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "jungle",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Bonfire",
+    "file": "campfire.mp3",
+    "tags": "fire, outdoors, camping, cosy",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "campfire",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Rain",
+    "file": "rain.mp3",
+    "tags": "weather, water, outdoors",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "rain",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Paris Cafe",
+    "file": "cafe.mp3",
+    "tags": "people, crowd, city, coffee, chatter",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "cafe",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Farm",
+    "file": "farm.mp3",
+    "tags": "animal, humming, indoors, repetitive",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "farm",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Stream",
+    "file": "stream.mp3",
+    "tags": "weather, nature, water, running, outdoors",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "water",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Thunder",
+    "file": "thunder.mp3",
+    "tags": "storm, weather, nature, open, outdoors",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "thunder",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Train",
+    "file": "train.mp3",
+    "tags": "machine, travel, repetitive, soothing",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "train",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Waves",
+    "file": "beach_waves.mp3",
+    "tags": "ocean, nature, open, water",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "waves",
+    "recentlyDownloaded": false
+  },
+  {
+    "source": "file",
+    "name": "Wind",
+    "file": "wind.mp3",
+    "tags": "weather, nature, open, outdoors",
+    "volume": 0.5,
+    "playing": false,
+    "editing": false,
+    "progress": 1,
+    "img": "wind",
+    "recentlyDownloaded": false
+  }
+]
