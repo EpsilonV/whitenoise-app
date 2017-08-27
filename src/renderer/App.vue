@@ -17,6 +17,7 @@
         console.log('data', data);
         this.$store.commit('INIT_SINGS', data);
       });
+      this.$store.dispatch('initSettings');
     },
   };
 </script>

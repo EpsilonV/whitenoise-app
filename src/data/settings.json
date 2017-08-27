@@ -1,7 +1,8 @@
 {
   "lang": "en",
-  "volumn": 1.0,
-  "startAtLogin": false,
+  "volume": 100,
+  "play": false,
+  "startAtLogin": true,
   "devTools": false,
   "dockIcon": true
 }

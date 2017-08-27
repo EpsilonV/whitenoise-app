@@ -58,6 +58,7 @@
   "dependencies": {
     "auto-launch": "^5.0.1",
     "axios": "^0.16.1",
+    "electron": "^1.7.2",
     "fs-extra": "^4.0.1",
     "howler": "^2.0.4",
     "less": "^2.7.2",
@@ -82,7 +83,6 @@
     "css-loader": "^0.28.4",
     "del": "^2.2.1",
     "devtron": "^1.1.0",
-    "electron": "^1.7.2",
     "electron-debug": "^1.1.0",
     "electron-devtools-installer": "^2.0.1",
     "electron-builder": "^19.10.0",

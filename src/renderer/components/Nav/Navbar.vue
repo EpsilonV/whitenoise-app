@@ -27,12 +27,13 @@
     props: ['goBack', 'settings'],
     computed: {
       ...mapState({
-        playing: state => state.Settings.play,
+        playing: state => state.Settings.settings.play,
       }),
     },
     methods: {
       play() {
-        Howler.mute(!this.$store.state.Settings.play);
+        console.log(this.$store.state.Settings);
+        Howler.mute(!this.$store.state.Settings.settings.play);
         this.$store.commit('TOGGLE_PLAY');
       },
     },
@@ -50,9 +51,11 @@
         width: 100%;
       position: fixed;
       top: 0;
+      z-index: 10;
     }
 
     #header-top a {
+      flex: 1;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -63,5 +66,10 @@
       display: block;
       height: 1.5rem;
       width: 1.5rem;
+    }
+
+    #header-top p {
+      flex: 2;
+      color: #00f0c8;
     }
 </style>

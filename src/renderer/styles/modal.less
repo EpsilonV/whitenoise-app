@@ -1,0 +1,37 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  opacity: 0;
+  display: none;
+  justify-content: center;
+  align-items: flex-end;
+
+  &.active {
+    opacity: 1;
+    display: flex;
+    z-index: 400;
+
+    .modal-overlay {
+      background: rgba(209, 209, 209, 0.07);
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      cursor: default;
+      display: block;
+      position: absolute;
+    }
+  }
+}
+
+.modal-container {
+  width: 100%;
+  background: #ffffff;
+  border-top: 1px solid gray;
+  animation: downToTop;
+  display: block;
+  padding: 0;
+}

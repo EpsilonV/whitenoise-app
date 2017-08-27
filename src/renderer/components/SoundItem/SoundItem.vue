@@ -6,14 +6,23 @@
       </a>
     </div>
     <div class="sound-volume">
-      <p>{{ sound.name }}</p>
+      <div class="type">
+        {{ sound.name }}
+      </div>
+      <div class="volume">
+        <Slider :value="sound.volume"></Slider>
+      </div>
     </div>
   </div>
 </template>
 <script>
   import { Howl } from 'howler/dist/howler.core.min.js';
+  import Slider from '../UI/Slider.vue';
   export default {
     name: 'sound-item',
+    components: {
+      Slider,
+    },
     props: {
       sound: Object,
       index: Number,
@@ -38,6 +47,7 @@
     },
     mounted() {
       const soundFile = `./src/renderer/assets/Mp3/${this.sound.file}`;
+      console.log('volume', this.sound.volume);
       this.singInstance = new Howl({
         src: soundFile,
         html5: true,
@@ -62,7 +72,7 @@
 </script>
 <style lang="less">
   .sound-item {
-    height: 4.5rem;
+    height: 5rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -104,6 +114,20 @@
   .sound-volume {
     flex: 2;
     padding-left: 5px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sound-volume .type {
+    flex: 1;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .sound-volume .volume {
+    flex: 1;
   }
 </style>
 
